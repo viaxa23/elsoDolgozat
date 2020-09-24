@@ -1,0 +1,17 @@
+*{
+    font-family: consolas;
+}
+
+table, th, td{
+    border: 1px dotted green;
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+}
+
+tr:nth-child(odd){
+    background-color: yellow;
+}

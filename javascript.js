@@ -23,3 +23,14 @@ function getosztaly(){
 }
 
 getosztaly();
+
+function feltolt() {
+    let nev = document.getElementById('nev').value;
+    let osztaly = document.getElementById('osztaly').value;
+    console.log(nev + ' ' + osztaly);
+    diakok.push({'nev' : `${nev}`, 'osztaly' : `${osztaly}`});
+}
+
+function frissit() {
+
+}
